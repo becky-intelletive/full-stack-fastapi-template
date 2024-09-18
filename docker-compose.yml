@@ -50,7 +50,6 @@ services:
     depends_on:
       db:
         condition: service_healthy
-        restart: true
     env_file:
       - .env
     environment:
